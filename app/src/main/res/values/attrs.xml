@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GeneralItem">
+        <!--标题的文字-->
+        <attr name="title" format="string" />
+        <!--标题是否带星-->
+        <attr name="is_show_star" format="boolean"/>
+        <!--标题是否加粗-->
+        <attr name="title_is_bold" format="boolean"/>
+        <!--标题的字体大小-->
+        <attr name="title_size" format="dimension" />
+        <!--标题的字体颜色-->
+        <attr name="title_color" format="color" />
+        <!--是否显示输入框-->
+        <attr name="is_show_edit" format="boolean"/>
+        <!--是否显示右边文字-->
+        <attr name="is_show_content" format="boolean"/>
+        <!--右边文字的内容-->
+        <attr name="right_content" format="string" />
+        <!--右边文字的字体大小-->
+        <attr name="right_text_size" format="dimension" />
+        <!--右边文字的字体颜色-->
+        <attr name="right_text_color" format="color" />
+        <!--右边文字提示的内容-->
+        <attr name="right_hint_content" format="string" />
+        <!--右边文字的提示字体的字体颜色-->
+        <attr name="right_hint_text_color" format="color" />
+        <!--输入框的内容-->
+        <attr name="edt_content" format="string" />
+        <!--输入框的字体大小-->
+        <attr name="edt_text_size" format="dimension" />
+        <!--输入框的字体颜色-->
+        <attr name="edt_text_color" format="color" />
+        <!--输入框提示的内容-->
+        <attr name="edt_hint_content" format="string" />
+        <!--输入框的提示字体的字体颜色-->
+        <attr name="edt_hint_text_color" format="color" />
+        <!--输入框是否可以编辑内容-->
+        <attr name="isEditable" format="boolean"/>
+        <!--右边图标是否可见-->
+        <attr name="is_show_right_icon" format="boolean"/>
+        <!--设置右边图标-->
+        <attr name="right_icon" format="reference|color"/>
+        <!--左边图标是否可见-->
+        <attr name="is_show_left_icon" format="boolean"/>
+        <!--设置左边图标-->
+        <attr name="left_icon" format="reference|color"/>
+        <!--item布局的内边距-->
+        <attr name="paddingHorizontal" format="dimension"/>
+        <attr name="paddingVertical" format="dimension"/>
+        <!--是否展示下划线-->
+        <attr name="is_show_line" format="boolean" />
+        <!--下划线颜色-->
+        <attr name="line_color" format="color" />
+        <!--下划线高度-->
+        <attr name="line_height" format="dimension" />
+    </declare-styleable>
+</resources>
